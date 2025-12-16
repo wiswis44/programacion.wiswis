@@ -23,7 +23,7 @@ public class ex15 {
             System.out.println("4. buscador de pareja .");
             System.out.println("5. sortir del programa .");
             System.out.println("        elige una opcion   \n(1--5)  :");
-//----------------------------------------------------
+//------------------------------------------------------------------------------------------------------------------------------------------
             
             opcion = sc.nextInt();
             switch (opcion ) {
