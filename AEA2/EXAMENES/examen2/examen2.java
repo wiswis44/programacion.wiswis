@@ -1,4 +1,4 @@
-package AEA2.ex_para_parcticar.examen2;
+package AEA2.EXAMENES.examen2 ;
 import java.util.Scanner;
 
 public class examen2 {

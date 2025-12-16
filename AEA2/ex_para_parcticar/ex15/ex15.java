@@ -23,8 +23,7 @@ public class ex15 {
             System.out.println("4. buscador de pareja .");
             System.out.println("5. sortir del programa .");
             System.out.println("        elige una opcion   \n(1--5)  :");
-//------------------------------------------------------------------------------------------------------------------------------------------
-            
+//==================================================================================
             opcion = sc.nextInt();
             switch (opcion ) {
                 case 1://mostrar el estado actual de la sala : 
@@ -55,7 +54,6 @@ public class ex15 {
                                 sc.next();
                             }
                         }
-                    
                     System.out.println("introduce el numero de columnas porfa : ");
                     while (true ) {
                             if (sc.hasNextInt()){
@@ -133,7 +131,6 @@ public class ex15 {
                     precio= precio - precio_actl ;
                     break;
                 case 4://buscador de pareja : 
-
                     break;
                 case 5:
                     System.out.println("hasta luego . ");
@@ -147,6 +144,7 @@ public class ex15 {
         sc.close();
     }
 }
+
 /* 
 📝 El Reto: "Gestor de Cine en Consola"
 Tu programa debe iniciar mostrando un Menú Principal con 4 opciones. 
