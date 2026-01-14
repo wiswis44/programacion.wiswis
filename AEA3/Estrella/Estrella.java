@@ -5,21 +5,18 @@ public class Estrella{
     public static void main(String[] args) {
         Estrella wis = new Estrella();
         wis.inici();
-    }
-
-    public void inici() {
+    } 
+    
+    public void inici(){        
         System.out.println("has demant dibuixar");
-        impremir_estrella(6);
-        impremir_estrella(3);
+            impremir_estrella(6 ,'?');
+            impremir_estrella(3 , '!');
         System.out.println("aqui acaba el programa . ");
     }
-
-    public void impremir_estrella(int num ){
+    public void impremir_estrella(int num , char Char ){
         for (int i = 0; i < num; i++) {
-            System.out.print("* ");
+            System.out.print( Char);
         }
         System.out.println();
     }
 }
-
-
