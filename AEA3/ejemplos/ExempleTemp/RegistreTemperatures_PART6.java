@@ -1,4 +1,4 @@
-package AEA3.ExempleTemp;
+package AEA3.ejemplos.ExempleTemp;
 
 import java.util.Scanner;
 

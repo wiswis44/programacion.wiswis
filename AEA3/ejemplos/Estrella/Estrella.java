@@ -12,6 +12,7 @@ public class Estrella{
             impremir_estrella(6 ,'?');
             impremir_estrella(3 , '!');
         System.out.println("aqui acaba el programa . ");
+    
     }
     public void impremir_estrella(int num , char Char ){
         for (int i = 0; i < num; i++) {
