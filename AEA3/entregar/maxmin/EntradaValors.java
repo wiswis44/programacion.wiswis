@@ -8,7 +8,13 @@ public class EntradaValors {
 
         for (int i = 0; i < 5; i++) {
             System.out.print("Introdueix el valor " + (i + 1) + ": ");
-            valors[i] = sc.nextDouble();
+            if(sc.hasNextDouble()){
+                valors[i] = sc.nextDouble();
+            }else{
+                System.out.println("ERROR ");
+                sc.next(); 
+                i--;
+            }
         }
         System.out.println("");
 
