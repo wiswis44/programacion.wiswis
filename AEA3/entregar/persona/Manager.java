@@ -15,7 +15,7 @@ public class Manager extends Employee {
     }
 
     public double calcularBonus() {
-        double bonus = getSalario() * 0.12;
+        double bonus = getSalario() * 0.15;
         return bonus;
     }
 
