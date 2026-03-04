@@ -32,6 +32,6 @@ public class Triangle extends Figura {
     }
 
     public double calcularArea() {
-        return (base * altura) / 2.0;
+        return (base * altura) / 2;
     }
 }

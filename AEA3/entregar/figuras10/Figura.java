@@ -1,4 +1,5 @@
 package AEA3.entregar.figuras10;
+
 import java.util.Scanner;
 
 public class Figura {
@@ -10,6 +11,7 @@ public class Figura {
     protected static Scanner sc = new Scanner(System.in);
 
     public Figura() {
+        //para que cada figura creada tendra su propio id
         contador++;
         this.id = contador;
     }
@@ -35,7 +37,7 @@ public class Figura {
         return contador + 1;
     }
 
-    
+
     protected double llegirDoublePositiu(String missatge) {
         double valor = -1;
         while (valor <= 0) {
@@ -45,7 +47,7 @@ public class Figura {
                 if (valor <= 0) System.out.println("Error: El valor ha de ser positiu.");
             } else {
                 System.out.println("Error: Introdueix un número vàlid.");
-                sc.next(); 
+                sc.next();
             }
         }
         return valor;

@@ -18,6 +18,6 @@ public class Trapezi extends Figura {
     }
 
     public double calcularArea() {
-        return ((a + b) * altura) / 2.0;
+        return ((a + b) * altura) / 2;
     }
 }

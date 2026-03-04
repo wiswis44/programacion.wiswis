@@ -1,9 +1,11 @@
 package AEA3.entregar.figuras;
+
 public class Figura {
 
     protected String figura;
     protected int id;
-    private static int contador = 0;   
+    private static int contador = 0;
+
     // Constructor básico
     public Figura() {
         contador++;
