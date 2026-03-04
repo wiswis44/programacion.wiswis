@@ -3,8 +3,7 @@ public class Figura {
 
     protected String figura;
     protected int id;
-    private static int contador = 0;   // 🔹 contador global
-
+    private static int contador = 0;   
     // Constructor básico
     public Figura() {
         contador++;
