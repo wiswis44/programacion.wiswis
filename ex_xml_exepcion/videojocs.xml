@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="videojocs.xsl"?>
+<videojocs>
+    <joc>
+        <titol>The Legend of Zelda: Breath of the Wild</titol>
+        <plataforma>Nintendo Switch</plataforma>
+        <genere>Aventura</genere>
+        <any>2017</any>
+        <puntuacio>9.7</puntuacio>
+        <preu>59.99</preu>
+    </joc>
+    <joc>
+        <titol>God of War Ragnarok</titol>
+        <plataforma>PlayStation 5</plataforma>
+        <genere>Acció</genere>
+        <any>2022</any>
+        <puntuacio>9.3</puntuacio>
+        <preu>69.99</preu>
+    </joc>
+    <joc>
+        <titol>FIFA 23</titol>
+        <plataforma>Xbox Series X</plataforma>
+        <genere>Esports</genere>
+        <any>2022</any>
+        <puntuacio>7.8</puntuacio>
+        <preu>49.99</preu>
+    </joc>
+    <joc>
+        <titol>Minecraft</titol>
+        <plataforma>PC</plataforma>
+        <genere>Puzle</genere>
+        <any>2011</any>
+        <puntuacio>8.5</puntuacio>
+        <preu>26.95</preu>
+    </joc>
+    <joc>
+        <titol>Among Us</titol>
+        <plataforma>Móvil</plataforma>
+        <genere>Estratègia</genere>
+        <any>2018</any>
+        <puntuacio>6.2</puntuacio>
+        <preu>3.99</preu>
+    </joc>
+</videojocs>
