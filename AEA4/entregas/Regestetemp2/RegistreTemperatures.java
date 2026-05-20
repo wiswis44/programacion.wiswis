@@ -26,7 +26,7 @@ public class RegistreTemperatures {
     }
 
     public void inici() {
-        int errorForzado = 10 / 0; // para forzar un error
+        // int errorForzado = 10 / 0; para forzar un error
 
         while (!fi) {
             mostrarMenu();
@@ -82,6 +82,7 @@ public class RegistreTemperatures {
         } else {
             System.out.println("\nNo hi ha temperatures registrades.");
         }
+
     }
 
     public void mostrarDiferencia() {
